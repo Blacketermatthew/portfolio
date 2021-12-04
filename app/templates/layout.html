@@ -18,7 +18,10 @@
 
     <!--Intializes icons from FontAwesome-->
     <script src="https://kit.fontawesome.com/20332d8589.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="{{ url_for('static', filename='img/icon_blue.png') }}">
+    <!-- <link rel="icon" href="{{ url_for('static', filename='img/icon_blue.png') }}"> -->   
+    <link rel="icon" href="../static/img/favicon_MB.ico">
+    
+
     {% block head %}
     {% endblock %}
   </head>
@@ -33,14 +36,15 @@
       
       <footer id="the-footer">
         <div class="footer-container">
-          <div class="row">
+          <div class="row footer-row">
 
             <div class="col-md-5 offset-md-1 pt-4">
               <i class="fas fa-laptop-code footericon"></i><br><br>
             </div>
 
-            <div class="col-md-6" style="background-color: navy;">
-              <p>2021</p>
+            <div class="col-md-6">  <!--style="background-color: navy;"> -->
+              <a href="https://github.com/Blacketermatthew"><img id="github-icon" src="../static/img/github_icon.png"></a>
+              <a href="https://www.linkedin.com/in/matthew-blacketer/"><img id="linkedin-icon" src="../static/img/linkedin_icon.png"></a>
             </div>
 
           </div>
