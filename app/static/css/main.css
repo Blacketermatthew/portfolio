@@ -75,30 +75,35 @@ html, body {
 
 .footer-row {
     position: absolute;
+    bottom: 0;
     display: flex;
     align-items: center;
     /* background: #0dfd5d; */
     width: 100%;
-    padding-right: 200px;
+    padding-right: 75px;
 }
 
 .footericon {
     font-size: 72px;
     color: gold;
-    padding-left: 50px;
+    margin-left: 75px;
 } 
+
+.icon-container {
+    float: right;
+}
 
 #github-icon {
     height: 60px;
     width: 60px;
-    float: right;
+    margin-left: 20px;
 }
 
 #linkedin-icon {
-    background-color: #0d6efd;
+    /* background-color: #0d6efd; */
     height: 60px;
     width: 60px;
-    float: right;
+    border-radius: 7px;
 }
 
 
