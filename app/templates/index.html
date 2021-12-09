@@ -17,12 +17,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 offset-lg-1">
-                    <img id="section-img-2" src="../static/img/Me.jpg">
+                    <img id="profile-pic" src="../static/img/Me.jpg">
                 </div>
                 <div class="col-lg-5 offset-lg-2">
                     <h6>I'm a <span style="color: yellow">junior web developer.</span></h6>
                     <h2>See what you like?  Have any questions?</h2>
-                    <p class="lead">Send me a message!</p>
+                    <a href="{{ url_for('contact') }}" class="btn btn-md btn-success mt-3">Send me a message!</a>
+                    <!-- <p class="lead">Send me a message!</p> -->
                 </div>
 
 
