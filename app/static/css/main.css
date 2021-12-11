@@ -7,33 +7,26 @@ html, body {
 }
 
 .navbar {
+    position: fixed;
+    z-index: 1;
     top: 0;
     height: 50px;
+    width: 100%;
     border-bottom: 2px solid #504ecf;
+    opacity: 80%;
 }
 
 
-/* .dropdown-menu {
-    background-color: grey;
-}
-
-
-
-.container-fluid, .navbar {
-    background-color: #ff5e2d;
-} */
-
-.section.top {
+/* HOME ----------------------------------------------------------*/
+/* .section.top { */
+#home {
     background: url('../img/coffee_keyboard_background.jpg') center center no-repeat;
     opacity: .9;
-    /* color: white; */
-    height: 90%;
+    height: 95%;
     /* width: 100%; */
     display: flex;
     align-items: center;
 }
-
-
 
 .index-message {
     width: 900px;
@@ -47,39 +40,75 @@ html, body {
     color: white;
     -webkit-text-stroke: 2px black;
 }
-/* 
-.contact-container {
-    background-color: #d324bc;
-} */
 
-.section.second {
+
+
+/* ABOUT ----------------------------------------------------------*/
+/* .section.second { */
+#about {
     /* height: 100%; */
     background-color: #272727;
     color: white;
-    padding: 40px 0;
+    height: 700px;
+    padding: 100px 0;
 }
 
-.section.second h2 {
+/* .section.second h2 { */
+#about h2 {
     color: #CFD8DC;
+}
+
+#about-content {
+    margin: 0px;
+    padding: 100px 0px;
+    /* width: 100%; */
 }
 
 #profile-pic {
     height: 250px;
     width: 225px;
+    display:block;  /* NOTE: Look up why this works to center */
+    margin:auto;
 }
 
-.section.skills {
+.style-box {
+    border: 3px solid;
+}
+
+.style-box.inner {
+    border-color: magenta;
+    height: 275px;
+    width: 250px;
+}
+
+.style-box.outer {
+    border-color: gold;
+    height: 300px;
+    width: 275px;
+}
+
+
+
+
+/* SKILLS ----------------------------------------------------------*/
+/* .section.skills { */
+#skills {
+    height: 700px;
     padding: 40px 0;
     background-color: #be3a3a;
 }
 
-.section.contact {
+
+/* CONTACT ----------------------------------------------------------*/
+/* .section.contact { */
+#contact {
+    height: 700px;
     padding: 40px 0;
     background-color: #ffffe0;
 }
 
-/* FOOTER ---------------------------------------------------------- */
 
+/* FOOTER ---------------------------------------------------------- */
 #the-footer {
     background: #0d6efd;
     color: white;
