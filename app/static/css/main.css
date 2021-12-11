@@ -68,6 +68,18 @@ html, body {
     width: 225px;
 }
 
+.section.skills {
+    padding: 40px 0;
+    background-color: #be3a3a;
+}
+
+.section.contact {
+    padding: 40px 0;
+    background-color: #ffffe0;
+}
+
+/* FOOTER ---------------------------------------------------------- */
+
 #the-footer {
     background: #0d6efd;
     color: white;
