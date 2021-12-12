@@ -21,7 +21,7 @@ html, body {
 /* .section.top { */
 #home {
     background: url('../img/coffee_keyboard_background.jpg') center center no-repeat;
-    opacity: .9;
+    opacity: .95;
     height: 95%;
     /* width: 100%; */
     display: flex;
@@ -51,6 +51,7 @@ html, body {
     color: white;
     height: 700px;
     padding: 100px 0;
+
 }
 
 /* .section.second h2 { */
@@ -60,34 +61,62 @@ html, body {
 
 #about-content {
     margin: 0px;
-    padding: 100px 0px;
+    padding: 75px 0px;
     /* width: 100%; */
 }
 
 #profile-pic {
     height: 250px;
     width: 225px;
-    display:block;  /* NOTE: Look up why this works to center */
+    display:block;  /* NOTE: Look up why this works (to properly center the image) */
     margin:auto;
 }
 
+.profile-box {
+    padding: 25px;
+    /* border: 3px solid navy; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* These are for the style divs that go around my beautiful face*/
 .style-box {
     border: 3px solid;
+    display:flex;
+    margin:auto;
 }
 
 .style-box.inner {
-    border-color: magenta;
+    border-color: #b30606;
+    background-color: #b30606;
     height: 275px;
     width: 250px;
+    /* display: flex; */
+    
+}
+
+.style-box.middle {
+    border-color: #c90e0e;
+    background-color: #c90e0e;
+    height: 300px;
+    width: 275px;
+    /* display: flex; */
 }
 
 .style-box.outer {
-    border-color: gold;
-    height: 300px;
-    width: 275px;
+    border-color: #d80808;
+    background-color: #d80808;
+    height: 325px;
+    width: 300px;
+    /* display: flex; */
 }
 
-
+/* .style-box.outer-outer {
+    border-color: limegreen;
+    height: 350px;
+    width: 350px;
+    display: flex;
+} */
 
 
 /* SKILLS ----------------------------------------------------------*/
