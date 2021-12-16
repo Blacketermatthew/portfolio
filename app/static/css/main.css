@@ -16,6 +16,16 @@ html, body {
     opacity: 80%;
 }
 
+.navbar-nav li a {
+    color: #fff12a;
+}
+
+.navbar-nav li a:hover {
+    color: #000e91;
+    outline:#be2c00;
+}
+
+
 
 /* HOME ----------------------------------------------------------*/
 /* .section.top { */
@@ -126,6 +136,23 @@ html, body {
     padding: 40px 0;
     background-color: #be3a3a;
 }
+
+.skills-container {
+    padding: 200px 0;
+    margin: 25px;
+}
+
+.devicon {
+    font-size: 72px;
+    color: white;
+}
+
+.icon-div {
+    background-color: rgb(190, 44, 0);
+    width: 25%;
+}
+
+
 
 
 /* CONTACT ----------------------------------------------------------*/
