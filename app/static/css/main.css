@@ -1,128 +1,124 @@
-html, body {
-    background-color: #d7e0ee;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-
+html,
+body {
+  background-color: #d7e0ee;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    height: 50px;
-    width: 100%;
-    border-bottom: 2px solid #504ecf;
-    opacity: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #504ecf;
+  opacity: 80%;
 }
 
 .navbar-nav li a {
-    color: white;
-    margin: auto 25px;
+  color: white;
+  margin: auto 25px;
 }
 
 .navbar-nav li a:hover {
-    color: #000e91;
-    outline:#be2c00;
+  color: #2738d1;
+  outline: #be2c00;
 }
 
 .nav-link:active {
-    color:rgb(14, 10, 7);
+  color: rgb(14, 10, 7);
 }
-
 
 /* HOME ----------------------------------------------------------*/
 /* .section.top { */
 #home {
-    background: url('../img/coffee_keyboard_background.jpg') center center no-repeat;
-    opacity: .95;
-    height: 95%;
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
+  background: url("../img/coffee_keyboard_background.jpg") center center
+    no-repeat;
+  opacity: 0.95;
+  height: 95%;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
 }
 
 .index-message {
-    width: 900px;
-    margin: 0 auto;
-    text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .index-message h1 {
-    font-size: 54px;
-    font-weight: bold;
-    color: white;
-    -webkit-text-stroke: 2px black;
+  font-size: 54px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 2px black;
 }
-
-
 
 /* ABOUT ----------------------------------------------------------*/
 /* .section.second { */
 #about {
-    /* height: 100%; */
-    background-color: #272727;
-    color: white;
-    height: 700px;
-    padding: 100px 0;
-
+  /* height: 100%; */
+  background-color: #272727;
+  color: white;
+  height: 700px;
+  padding: 100px 0;
 }
 
 /* .section.second h2 { */
 #about h2 {
-    color: #CFD8DC;
+  color: #cfd8dc;
 }
 
 #about-content {
-    margin: 0px;
-    padding: 75px 0px;
-    /* width: 100%; */
+  margin: 0px;
+  padding: 75px 0px;
+  /* width: 100%; */
 }
 
 #profile-pic {
-    height: 250px;
-    width: 225px;
-    display:block;  /* NOTE: Look up why this works (to properly center the image) */
-    margin:auto;
+  height: 250px;
+  width: 225px;
+  display: block; /* NOTE: Look up why this works (to properly center the image) */
+  margin: auto;
 }
 
 .profile-box {
-    padding: 25px;
-    /* border: 3px solid navy; */
-    display: flex;
-    /* justify-content: center; */
+  padding: 25px;
+  /* border: 3px solid navy; */
+  display: flex;
+  /* justify-content: center; */
 }
 
 /* These are for the style divs that go around my beautiful face*/
 .style-box {
-    border: 3px solid;
-    display:flex;
-    margin:auto;
+  border: 3px solid;
+  display: flex;
+  margin: auto;
 }
 
 .style-box.inner {
-    border-color: #b30606;
-    background-color: #b30606;
-    height: 275px;
-    width: 250px;
-    /* display: flex; */
-    
+  border-color: #b30606;
+  background-color: #b30606;
+  height: 275px;
+  width: 250px;
+  /* display: flex; */
 }
 
 .style-box.middle {
-    border-color: #c90e0e;
-    background-color: #c90e0e;
-    height: 300px;
-    width: 275px;
-    /* display: flex; */
+  border-color: #c90e0e;
+  background-color: #c90e0e;
+  height: 300px;
+  width: 275px;
+  /* display: flex; */
 }
 
 .style-box.outer {
-    border-color: #d80808;
-    background-color: #d80808;
-    height: 325px;
-    width: 300px;
-    /* display: flex; */
+  border-color: #d80808;
+  background-color: #d80808;
+  height: 325px;
+  width: 300px;
+  /* display: flex; */
 }
 
 /* .style-box.outer-outer {
@@ -132,89 +128,91 @@ html, body {
     display: flex;
 } */
 
-
 /* SKILLS ----------------------------------------------------------*/
 /* .section.skills { */
 #skills {
-    height: 700px;
-    padding: 40px 0;
-    background-color: #be3a3a;
+  height: 700px;
+  padding: 40px 0;
+  background-color: #be3a3a;
 }
 
 .skills-container {
-    padding: 200px 0;
-    margin: 25px;
+  /* padding: 200px 0; */
+  margin: 25px;
 }
 
-.devicon {
-    font-size: 72px;
-    color: white;
+.icon-divider {
+  /* background-color: yellow; */
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
 }
 
 .icon-div {
-    background-color: rgb(190, 44, 0);
-    width: 25%;
+  /* background-color: rgb(7, 24, 78); */
+  display: inline-block;
+  /* text-align: center; */
+  margin: 50px 20px;
+  padding: 10px 10px 5px 10px;
 }
 
+.devicon {
+  font-size: 72px;
+  color: white;
+}
 
-
+.icon-div h5 {
+    color: white;
+    margin-top: 15px;
+}
 
 /* CONTACT ----------------------------------------------------------*/
 /* .section.contact { */
 #contact {
-    height: 700px;
-    padding: 40px 0;
-    background-color: #ffffe0;
+  height: 700px;
+  padding: 40px 0;
+  background-color: #ffffe0;
 }
-
 
 /* FOOTER ---------------------------------------------------------- */
 #the-footer {
-    background: #0d6efd;
-    color: white;
-    position: relative;
-    /* position: absolute; */
-    bottom: 0;
-    border-top: 2px solid #504ecf;
-    width: 100%;
-    height: 100px;
+  background: #0d6efd;
+  color: white;
+  position: relative;
+  /* position: absolute; */
+  bottom: 0;
+  border-top: 2px solid #504ecf;
+  width: 100%;
+  height: 100px;
 }
 
 .footer-row {
-    /* display: flex; */
-    align-items: center;
-    /* background: #0dfd5d; */
-    width: 100%;
-    /* padding-right: 75px; */
+  /* display: flex; */
+  align-items: center;
+  /* background: #0dfd5d; */
+  width: 100%;
+  /* padding-right: 75px; */
 }
 
 .footericon {
-    font-size: 50px;
-    color: gold;
-    margin-left: 75px;
-} 
+  font-size: 50px;
+  color: gold;
+  margin-left: 75px;
+}
 
 .icon-container a {
-    float: right;
+  float: right;
 }
 
 #github-icon {
-    height: 40px;
-    width: 40px;
-    margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
 }
 
 #linkedin-icon {
-    /* background-color: #0d6efd; */
-    height: 40px;
-    width: 40px;
-    border-radius: 7px;
+  /* background-color: #0d6efd; */
+  height: 40px;
+  width: 40px;
+  border-radius: 7px;
 }
-
-
-
-
-
-
-
-
