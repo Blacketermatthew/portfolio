@@ -17,7 +17,8 @@ html, body {
 }
 
 .navbar-nav li a {
-    color: #fff12a;
+    color: white;
+    margin: auto 25px;
 }
 
 .navbar-nav li a:hover {
@@ -25,6 +26,9 @@ html, body {
     outline:#be2c00;
 }
 
+.nav-link:active {
+    color:rgb(14, 10, 7);
+}
 
 
 /* HOME ----------------------------------------------------------*/
