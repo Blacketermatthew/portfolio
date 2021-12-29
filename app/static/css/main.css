@@ -137,9 +137,22 @@ body {
 }
 
 .skills-container {
-  /* padding: 200px 0; */
+    margin: 50px;
+}
+
+#skills-title {
   margin: 25px;
 }
+
+#skills-title h4 {
+  font-family: 'Poppins 600', sans-serif;
+  
+}
+
+#skills-title h2 {
+  font-family: 'Merriweather 400', serif;
+}
+
 
 .icon-divider {
   /* background-color: yellow; */
