@@ -138,36 +138,59 @@ body {
 
 .skills-container {
     margin: 50px;
+    /* background-color: #cc4646; */
+    background-color: #c75f19;
+    padding-bottom: 50px;
 }
 
 #skills-title {
-  margin: 25px;
+  margin: 25px 0px 25px 200px;
 }
 
-#skills-title h4 {
-  font-family: 'Poppins 600', sans-serif;
+#skills-title h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #eed5d5;
   
 }
 
-#skills-title h2 {
-  font-family: 'Merriweather 400', serif;
+#skills-title h1 {
+  font-family: 'Merriweather', serif;
+  color:#16275a;
+  /* font-weight: 700; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
+#skills-title h4 {
+  margin-top: 30px;
+  /* font-size: 36px; */
+}
 
 .icon-divider {
-  /* background-color: yellow; */
+  background-color: yellow;
   box-sizing: border-box;
   width: 100%;
   text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
+
 
 .icon-div {
   /* background-color: rgb(7, 24, 78); */
   display: inline-block;
   /* text-align: center; */
-  margin: 50px 20px;
+  margin: 20px 35px;
   padding: 10px 10px 5px 10px;
 }
+
+/* .icon-divider.icon-bottom-half .icon-div {
+  margin: 20px 35px;
+} */
+
 
 .devicon {
   font-size: 72px;
