@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #d7e0ee;
+  background-color: #256cdf;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -134,13 +134,14 @@ body {
   height: 900px;
   padding: 40px 0;
   background-color: #be3a3a;
+  display: inline-flexbox;
 }
 
 .skills-container {
-    margin: 50px;
-    /* background-color: #cc4646; */
-    background-color: #38791e;
-    padding-bottom: 50px;
+  margin: 50px;
+  /* background-color: #cc4646; */
+  background-color: #38791e;
+  padding-bottom: 50px;
 }
 
 #skills-title {
@@ -148,17 +149,16 @@ body {
 }
 
 #skills-title h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #eed5d5;
-  
 }
 
 #skills-title h1 {
-  font-family: 'Merriweather', serif;
-  color:#16275a;
+  font-family: "Merriweather", serif;
+  color: #16275a;
   /* font-weight: 700; */
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
@@ -178,7 +178,6 @@ body {
   margin-bottom: 40px;
 }
 
-
 .icon-div {
   /* background-color: rgb(7, 24, 78); */
   display: inline-block;
@@ -191,15 +190,14 @@ body {
   margin: 20px 35px;
 } */
 
-
 .devicon {
   font-size: 72px;
   color: white;
 }
 
 .icon-div h5 {
-    color: white;
-    margin-top: 15px;
+  color: white;
+  margin-top: 15px;
 }
 
 /* CONTACT ----------------------------------------------------------*/
