@@ -205,10 +205,40 @@ body {
 /* CONTACT ----------------------------------------------------------*/
 /* .section.contact { */
 #contact {
-  height: 700px;
-  padding: 40px 0;
+  height: 750px;
+  padding-top: 15px;
   background-color: #ffffe0;
 }
+
+#contact-title h1{
+  font-family: 'Merriweather', serif;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  margin: 75px;
+  background-color: #70b7f1;
+}
+
+.form-label {
+  font-size: 20px;
+}
+
+#text-input {
+  resize: none;
+}
+
+#submit-btn {
+  padding: 5px 60px;
+  font-family: 'Merriweather', serif;
+
+}
+
+
+
+
+
+
 
 /* FOOTER ---------------------------------------------------------- */
 #the-footer {
@@ -231,7 +261,7 @@ body {
 }
 
 .footericon {
-  font-size: 50px;
+  font-size: 45px;
   color: gold;
   margin-left: 75px;
 }

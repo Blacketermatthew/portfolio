@@ -188,20 +188,39 @@
 
         <!-- <div id="contact" class="section"> -->
         <section id="contact">
-            <div class="container">
+            <div class="contact-container">
+
+                <div id="contact-title">
+                    <h5>Wanna work together?  I'm pretty cool.</h5>
+                    <h1>Talk to me!</h1>
+                    <i class="fa fa-github devicon" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin devicon" aria-hidden="true"></i>
+                </div>
+
                 <form action="https://formspree.io/f/mnqwqdvj" method="POST">
-                <label>
-                    Email:
-                    <input type="email" name="_replyto">
-                </label>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
-                <!-- your other form fields go here -->
-                <button type="submit">Send</button>
+                    <div class="mb-3">
+                        <label id="name-label" for="name-input" class="form-label">Name</label>
+                        <br>
+                        <input type="text" id="name-input">
+                    </div>
+                    <div class="mb-3">
+                        <label id="email-label" for="email-input" class="form-label">Email Address</label>
+                        <br>
+                        <input type="email" name="_replyto" id="email-input" >
+                    </div>
+                    <div class="mb-3">
+                        <label id="text-label" for="text-input" class="mb-2 form-label">Your message:</label>
+                        <br>
+                        <textarea name="message" id="text-input" rows="4" cols="25"></textarea>
+                    </div>
+                    <!-- your other form fields go here -->
+                    <button type="submit" id="submit-btn" class="btn btn-lg btn-primary mt-2">Send</button>
                 </form>
+
             </div>
+
+
+            
         </section>
         <!-- </div> -->
 
@@ -209,14 +228,19 @@
             <div class="footer-container">
               <div class="row footer-row">
     
-                <div class="col-md-6 pt-4">
-                  <i class="fas fa-laptop-code footericon"></i><br><br>
-                </div>
-    
-                <div class="col-md-6 icon-container">
+                <!-- <div class="col-md-auto pt-4"> -->
+                    <i class="fas fa-laptop-code footericon"></i>
+                    <p>&copy; 
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> 
+                        | Matt Blacketer
+                    </p>
+                <!-- </div> -->
+                <!-- <div class="col-md-6 icon-container">
                   <a class="github-container" href="https://github.com/Blacketermatthew"><img id="github-icon" src="../static/img/github_icon.png"></a>
                   <a class="linkedin-container" href="https://www.linkedin.com/in/matthew-blacketer/"><img id="linkedin-icon" src="../static/img/linkedin_icon_.png"></a>
-                </div>
+                </div> -->
     
               </div>
             </div>
