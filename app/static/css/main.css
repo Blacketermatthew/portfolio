@@ -205,11 +205,12 @@ body {
 #contact {
   height: 750px;
   padding-top: 15px;
+  position: relative;
   background-color: #ffffe0;
 }
 
-#contact-title h1{
-  font-family: 'Merriweather', serif;
+#contact-title h1 {
+  font-family: "Merriweather", serif;
   margin-bottom: 30px;
 }
 
@@ -228,45 +229,36 @@ body {
 
 #submit-btn {
   padding: 5px 60px;
-  font-family: 'Merriweather', serif;
-
+  font-family: "Merriweather", serif;
 }
-
-
-
-
-
-
 
 /* FOOTER ---------------------------------------------------------- */
 #the-footer {
   background: #0d6efd;
   color: white;
-  position: relative;
   /* position: absolute; */
-  bottom: 0;
+  /* bottom: 0; */
   border-top: 2px solid #504ecf;
   width: 100%;
-  height: 100px;
+  /* height: 0px; */
 }
 
 .footer-row {
   /* display: flex; */
-  align-items: center;
+  text-align: center;
+  width: auto;
+  /* margin-top: 15px; */
+  margin-left: auto;
+  margin-right: auto;
   /* background: #0dfd5d; */
-  width: 100%;
-  /* padding-right: 75px; */
 }
 
 .footericon {
   font-size: 45px;
   color: gold;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 
-.icon-container a {
-  float: right;
-}
 
 #github-icon {
   height: 40px;
