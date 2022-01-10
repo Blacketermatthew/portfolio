@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #256cdf;
+  background-color: #000000;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   top: 0;
   height: 50px;
   width: 100%;
-  border-bottom: 2px solid #504ecf;
+  border-bottom: 2px solid #121141;
   opacity: 80%;
 }
 
@@ -22,12 +22,13 @@ body {
 }
 
 .navbar-nav li a:hover {
-  color: #ffde26;
-  outline: #be2c00;
+  color: gold;
+  /* outline: #be2c00; */
 }
 
-.nav-link:active {
-  color: rgb(14, 10, 7);
+.navbar-nav li a:active {
+  color: #fff7af;
+  background-color: #0543a0;
 }
 
 /* HOME ----------------------------------------------------------*/
@@ -131,16 +132,16 @@ body {
 /* SKILLS ----------------------------------------------------------*/
 /* .section.skills { */
 #skills {
-  height: 900px;
+  height: auto;
   padding: 40px 0;
   background-color: #be3a3a;
-  display: inline-flexbox;
+  /* display: inline-flexbox; */
 }
 
 .skills-container {
   margin: 50px;
   /* background-color: #cc4646; */
-  background-color: #38791e;
+  /* background-color: #38791e; */
   padding-bottom: 50px;
 }
 
@@ -169,7 +170,7 @@ body {
 }
 
 .icon-divider {
-  background-color: rgb(151, 49, 129);
+  /* background-color: rgb(151, 49, 129); */
   box-sizing: border-box;
   width: 100%;
   text-align: center;
@@ -203,7 +204,7 @@ body {
 /* CONTACT ----------------------------------------------------------*/
 /* .section.contact { */
 #contact {
-  height: 750px;
+  height: 800px;
   padding-top: 15px;
   position: relative;
   background-color: #ffffe0;
@@ -215,8 +216,10 @@ body {
 }
 
 .contact-container {
+  /* position: relative; */
   margin: 75px;
-  background-color: #70b7f1;
+  /* width: 500px; */
+  /* background-color: #70b7f1; */
 }
 
 .form-label {
@@ -230,6 +233,19 @@ body {
 #submit-btn {
   padding: 5px 60px;
   font-family: "Merriweather", serif;
+}
+
+#github-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+#linkedin-icon {
+  /* background-color: #0d6efd; */
+  height: 40px;
+  width: 40px;
+  border-radius: 7px;
 }
 
 /* FOOTER ---------------------------------------------------------- */
@@ -254,21 +270,8 @@ body {
 }
 
 .footericon {
-  font-size: 45px;
+  font-size: 25px;
+  margin-top: 7px;
   color: gold;
   /* margin-left: 75px; */
-}
-
-
-#github-icon {
-  height: 40px;
-  width: 40px;
-  margin-left: 20px;
-}
-
-#linkedin-icon {
-  /* background-color: #0d6efd; */
-  height: 40px;
-  width: 40px;
-  border-radius: 7px;
 }
