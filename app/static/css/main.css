@@ -122,32 +122,25 @@ body {
   /* display: flex; */
 }
 
-/* .style-box.outer-outer {
-    border-color: limegreen;
-    height: 350px;
-    width: 350px;
-    display: flex;
-} */
-
 /* SKILLS ----------------------------------------------------------*/
 /* .section.skills { */
 #skills {
   height: auto;
-  padding: 40px 0;
+  padding: 75px 0;
   background-color: #be3a3a;
   /* display: inline-flexbox; */
 }
 
 .skills-container {
-  margin: 50px;
+  margin: 40px;
   /* background-color: #cc4646; */
   /* background-color: #38791e; */
   padding-bottom: 50px;
 }
 
-#skills-title {
+/* #skills-title {
   margin: 25px 0px 25px 200px;
-}
+} */
 
 #skills-title h5 {
   font-family: "Poppins", sans-serif;
@@ -170,7 +163,7 @@ body {
 }
 
 .icon-divider {
-  /* background-color: rgb(151, 49, 129); */
+  background-color: #d84a4a;
   box-sizing: border-box;
   width: 100%;
   text-align: center;
@@ -182,8 +175,10 @@ body {
 .icon-div {
   /* background-color: rgb(7, 24, 78); */
   display: inline-block;
+  box-sizing: border-box;
+
   /* text-align: center; */
-  margin: 20px 35px;
+  margin: 20px 20px;
   padding: 10px 10px 5px 10px;
 }
 
@@ -192,7 +187,7 @@ body {
 } */
 
 .devicon {
-  font-size: 72px;
+  font-size: 65px;
   color: white;
 }
 
@@ -204,10 +199,15 @@ body {
 /* CONTACT ----------------------------------------------------------*/
 /* .section.contact { */
 #contact {
-  height: 800px;
+  height: auto;
+  min-height: 700px;
   padding-top: 15px;
-  position: relative;
+  /* position: relative; */
   background-color: #ffffe0;
+}
+
+.contact-outer-container {
+  margin: 0;
 }
 
 #contact-title h1 {
@@ -215,11 +215,10 @@ body {
   margin-bottom: 30px;
 }
 
+
 .contact-container {
-  /* position: relative; */
-  margin: 75px;
-  /* width: 500px; */
-  /* background-color: #70b7f1; */
+  margin: 25px;
+  /* background-color:azure; */
 }
 
 .form-label {
@@ -235,17 +234,24 @@ body {
   font-family: "Merriweather", serif;
 }
 
-#github-icon {
-  height: 40px;
-  width: 40px;
-  margin-left: 20px;
+#contact-icons {
+  margin-top: 200px;
+  /* background-color: pink; */
 }
 
-#linkedin-icon {
-  /* background-color: #0d6efd; */
-  height: 40px;
-  width: 40px;
-  border-radius: 7px;
+.contact-link {
+  box-sizing: border-box;
+  font-size: 48px;
+  /* margin: 0 10px; */
+  margin-right: 10px;
+  padding: 0;
+  color: rgb(76, 24, 136);
+  transition: transform .3s;
+}
+
+.contact-link:hover {
+  color: #8e5eff;
+  transform: scale(1.2);
 }
 
 /* FOOTER ---------------------------------------------------------- */
