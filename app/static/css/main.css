@@ -12,9 +12,15 @@ body {
   top: 0;
   height: 50px;
   width: 100%;
-  border-bottom: 2px solid #121141;
+  border-bottom: 2px solid #3e67be;
   opacity: 80%;
 }
+
+/* .navbar-nav {
+  background-color: rgb(42, 219, 131);
+} */
+
+
 
 .navbar-nav li a {
   color: white;
@@ -28,7 +34,7 @@ body {
 
 .navbar-nav li a:active {
   color: #fff7af;
-  background-color: #0543a0;
+  background-color: #0b4eb4;
 }
 
 /* HOME ----------------------------------------------------------*/
@@ -135,7 +141,7 @@ body {
 
 .skills-container {
   margin: 40px;
-  background-color: #cc4646;
+  /* background-color: #cc4646; */
   /* background-color: #38791e; */
   padding-bottom: 50px;
 }
@@ -165,11 +171,12 @@ body {
 }
 
 .icon-divider {
-  background-color: #d8774a;
-  box-sizing: border-box;
+  /* background-color: #d8774a; */
   width: 100%;
   text-align: center;
-  display: inline-block;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -177,16 +184,12 @@ body {
 .icon-div {
   /* background-color: rgb(7, 24, 78); */
   display: inline-block;
-  box-sizing: border-box;
-
+  /* box-sizing: border-box; */
+  flex: 0 0 50px;
   /* text-align: center; */
   margin: 20px 20px;
   padding: 10px 10px 5px 10px;
 }
-
-/* .icon-divider.icon-bottom-half .icon-div {
-  margin: 20px 35px;
-} */
 
 .devicon {
   font-size: 65px;

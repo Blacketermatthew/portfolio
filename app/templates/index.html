@@ -37,22 +37,23 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-lg bg-primary">
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <div class="collapse navbar-collapse bg-primary" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="navbar-list">
         
                 <!-- <a class="navbar-brand" href="{{ url_for('index') }}"> -->
                   <li class="nav-item">
-                    <a class="nav-link active" target="_top" href="#home">
+                    <a class="nav-link" target="_top" href="#home">
                     <i class="fas fa-home"></i>
                     Home</a>
                   </li>
                   
-                  <li class="nav-item">
+                  <li class="nav-item"> 
                     <a class="nav-link" aria-current="page" target="_top" href="#about">About</a>
                   </li>
         
@@ -121,7 +122,8 @@
                     <h4>The tools I use to help me succeed:</h4>
                 </div>
 
-                <div class="icon-divider icon-top-half">  <!-- Magenta -->
+                <!-- <div class="icon-divider icon-top-half">  Magenta -->
+                <div class="icon-divider">
                     <div class="icon-div">
                         <i class="devicon devicon-html5-plain"></i>
                         <h5>HTML</h5>
@@ -148,9 +150,9 @@
                         <i class="devicon devicon-python-plain"></i>
                         <h5>Python</h5>
                     </div>
-                </div>
-                
-                <div class="icon-divider icon-bottom-half">
+                <!-- </div> -->
+                <div class="w-100"></div>
+                <!-- <div class="icon-divider icon-bottom-half"> -->
                     <div class="icon-div">
                         <i class="devicon devicon-flask-original"></i>
                         <h5>Flask</h5>
