@@ -63,7 +63,7 @@ body {
   background-color: #272727;
   color: white;
   height: auto;
-  min-height: 825px;
+  min-height: 900px;
   padding: 100px 0;
 }
 
@@ -127,6 +127,7 @@ body {
 /* .section.skills { */
 #skills {
   height: auto;
+  min-height: 900px;
   padding: 60px 0;
   background-color: #be3a3a;
   /* display: inline-flexbox; */
@@ -134,7 +135,7 @@ body {
 
 .skills-container {
   margin: 40px;
-  /* background-color: #cc4646; */
+  background-color: #cc4646;
   /* background-color: #38791e; */
   padding-bottom: 50px;
 }
@@ -153,18 +154,18 @@ body {
 
 #skills-title h1 {
   font-family: "Merriweather", serif;
-  color: #16275a;
+  color: #0d2e92;
   /* font-weight: 700; */
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 #skills-title h4 {
-  margin-top: 30px;
+  margin-top: 20px;
   /* font-size: 36px; */
 }
 
 .icon-divider {
-  background-color: #d84a4a;
+  background-color: #d8774a;
   box-sizing: border-box;
   width: 100%;
   text-align: center;
@@ -201,7 +202,7 @@ body {
 /* .section.contact { */
 #contact {
   height: auto;
-  min-height: 700px;
+  min-height: 800px;
   padding-top: 15px;
   /* position: relative; */
   background-color: #faeccf;
@@ -228,9 +229,8 @@ body {
 .form-input {
   width: 400px;
   border: solid 2px #e9e9dd;
-  border-right: solid 2px #bdbdb1;
-  border-bottom: solid 2px #bdbdb1;
-
+  border-right: solid 2px #d1d1c7;
+  border-bottom: solid 2px #c9c9bc;
   background-color: #fffff4;
 }
 
