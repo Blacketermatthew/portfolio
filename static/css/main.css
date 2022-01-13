@@ -1,0 +1,300 @@
+html,
+body {
+  background-color: #000000;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #3e67be;
+  opacity: 80%;
+}
+
+/* .navbar-nav {
+  background-color: rgb(42, 219, 131);
+} */
+
+
+
+.navbar-nav li a {
+  color: white;
+  margin: auto 25px;
+}
+
+.navbar-nav li a:hover {
+  color: gold;
+  /* outline: #be2c00; */
+}
+
+.navbar-nav li a:active {
+  color: #fff7af;
+  background-color: #0b4eb4;
+}
+
+/* HOME ----------------------------------------------------------*/
+/* .section.top { */
+#home {
+  background: url("../img/coffee_keyboard_background.jpg") center center
+    no-repeat;
+  opacity: 0.95;
+  height: 95%;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+}
+
+.index-message {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.index-message h1 {
+  font-size: 54px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+/* ABOUT ----------------------------------------------------------*/
+/* .section.second { */
+#about {
+  /* height: 100%; */
+  background-color: #272727;
+  color: white;
+  height: auto;
+  min-height: 900px;
+  padding: 100px 0;
+}
+
+/* .section.second h2 { */
+#about h2 {
+  color: #cfd8dc;
+}
+
+#about-content {
+  margin: 0px;
+  padding: 75px 0px;
+  /* width: 100%; */
+}
+
+#profile-pic {
+  height: 250px;
+  width: 225px;
+  display: block; /* NOTE: Look up why this works (to properly center the image) */
+  margin: auto;
+}
+
+.profile-box {
+  padding: 25px;
+  /* border: 3px solid navy; */
+  display: flex;
+  /* justify-content: center; */
+}
+
+/* These are for the style divs that go around my beautiful face*/
+.style-box {
+  border: 3px solid;
+  display: flex;
+  margin: auto;
+}
+
+.style-box.inner {
+  border-color: #b30606;
+  background-color: #b30606;
+  height: 275px;
+  width: 250px;
+  /* display: flex; */
+}
+
+.style-box.middle {
+  border-color: #c90e0e;
+  background-color: #c90e0e;
+  height: 300px;
+  width: 275px;
+  /* display: flex; */
+}
+
+.style-box.outer {
+  border-color: #d80808;
+  background-color: #d80808;
+  height: 325px;
+  width: 300px;
+  /* display: flex; */
+}
+
+/* SKILLS ----------------------------------------------------------*/
+/* .section.skills { */
+#skills {
+  height: auto;
+  min-height: 900px;
+  padding: 60px 0;
+  background-color: #be3a3a;
+  /* display: inline-flexbox; */
+}
+
+.skills-container {
+  margin: 40px;
+  /* background-color: #cc4646; */
+  /* background-color: #38791e; */
+  padding-bottom: 50px;
+}
+
+/* #skills-title {
+  margin: 25px 0px 25px 200px;
+} */
+
+#skills-title h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #eed5d5;
+}
+
+#skills-title h1 {
+  font-family: "Merriweather", serif;
+  color: #0d2e92;
+  /* font-weight: 700; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+#skills-title h4 {
+  margin-top: 20px;
+  /* font-size: 36px; */
+}
+
+.icon-divider {
+  /* background-color: #d8774a; */
+  width: 100%;
+  text-align: center;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.icon-div {
+  /* background-color: rgb(7, 24, 78); */
+  display: inline-block;
+  /* box-sizing: border-box; */
+  flex: 0 0 50px;
+  /* text-align: center; */
+  margin: 20px 20px;
+  padding: 10px 10px 5px 10px;
+}
+
+.devicon {
+  font-size: 65px;
+  color: white;
+}
+
+.icon-div h5 {
+  color: white;
+  margin-top: 15px;
+}
+
+/* CONTACT ----------------------------------------------------------*/
+/* .section.contact { */
+#contact {
+  height: auto;
+  min-height: 800px;
+  padding-top: 15px;
+  /* position: relative; */
+  background-color: #faeccf;
+}
+
+.contact-outer-container {
+  margin: 0;
+}
+
+#contact-title h1 {
+  font-family: "Merriweather", serif;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  margin-top: 50px;
+  /* background-color:azure; */
+}
+
+.form-label {
+  font-size: 20px;
+}
+
+.form-input {
+  width: 400px;
+  border: solid 2px #e9e9dd;
+  border-right: solid 2px #d1d1c7;
+  border-bottom: solid 2px #c9c9bc;
+  background-color: #fffff4;
+}
+
+#name-input,
+#email-input {
+  height: 35px;
+}
+
+#text-input {
+  resize: none;
+}
+
+#submit-btn {
+  padding: 5px 60px;
+  font-family: "Merriweather", serif;
+}
+
+#contact-icons {
+  margin-top: 200px;
+  /* background-color: pink; */
+}
+
+.contact-link {
+  box-sizing: border-box;
+  font-size: 32px;
+  /* margin: 0 10px; */
+  margin-right: 10px;
+  padding: 0;
+  color: #3850d8;
+  transition: transform 0.3s;
+}
+
+.contact-link:hover {
+  color: #5e76ff;
+  transform: scale(1.2);
+}
+
+/* FOOTER ---------------------------------------------------------- */
+#the-footer {
+  background: #0d6efd;
+  color: white;
+  /* position: absolute; */
+  /* bottom: 0; */
+  border-top: 2px solid #504ecf;
+  width: 100%;
+  /* height: 0px; */
+}
+
+.footer-row {
+  /* display: flex; */
+  text-align: center;
+  width: auto;
+  /* margin-top: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* background: #0dfd5d; */
+}
+
+.footericon {
+  font-size: 25px;
+  margin-top: 7px;
+  color: gold;
+  /* margin-left: 75px; */
+}
