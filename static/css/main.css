@@ -200,7 +200,7 @@ body {
 }
 
 .devicon {
-  font-size: 65px;
+  font-size: 60px;
   color: white;
 }
 
@@ -259,10 +259,9 @@ body {
   font-family: "Merriweather", serif;
 }
 
-#contact-icons {
-  margin-top: 200px;
-  /* background-color: pink; */
-}
+/* #contact-icons {
+  margin-top: 50px;
+} */
 
 .contact-link {
   box-sizing: border-box;
