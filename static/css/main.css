@@ -27,8 +27,8 @@ body {
   color: gold;
 }
 
-.nav-link:focus {
-  color: #201f17;
+.navbar-dark .navbar-nav .nav-link.active {
+  color: gold;
 }
 
 .navbar-dark .navbar-toggler {
