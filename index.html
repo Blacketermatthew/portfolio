@@ -13,7 +13,6 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
         <!--Connects to main.css-->
-        <!-- <link rel="stylesheet" type="text/css"  href="main.css"> -->
         <link rel="stylesheet" href="static/css/main.css">
 
         <!--Google Fonts-->
@@ -35,120 +34,70 @@
 
     <body>
 
-        <!-- <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" 
-                aria-controls="navbarNavDarkDropdown" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse bg-primary" id="navbarNavDarkDropdown">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="navbar-list">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarNavDarkDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li>
-                                <a class="dropdown-item" target="_top" href="#home">
-                                    <i class="fas fa-home"></i>
-                                    Home</a>
-                            </li>
-
-                            <li> 
-                                <a class="dropdown-item" aria-current="page" target="_top" href="#about">About</a>
-                            </li>
-                    
-                            <li>
-                                <a class="dropdown-item" aria-current="page" target="_top" href="#skills">Skills</a>
-                            </li>
-                        
-                            <li>
-                                <a class="dropdown-item" target="_top" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                  </li>
-                </ul>
-        
-              </div>
-            </div>
-        </nav> -->
-        <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse bg-primary" id="navbarNavDarkDropdown">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="navbar-list">
-        
-                <!-- <a class="navbar-brand" href="{{ url_for('index') }}"> -->
-                  <li class="nav-item">
-                    <a class="nav-link" target="_top" href="#home">
-                    <i class="fas fa-home"></i>
-                    Home</a>
-                  </li>
-                  
-                  <li class="nav-item"> 
-                    <a class="nav-link" aria-current="page" target="_top" href="#about">About</a>
-                  </li>
-        
-                  <li class="nav-item">
-                    <!-- <a class="nav-link" aria-current="page" href="{{ url_for('works') }}">Works</a> -->
-                    <a class="nav-link" aria-current="page" target="_top" href="#skills">Skills</a>
-                  </li>
-              
-                  <li class="nav-item">
-                    <!-- <a class="nav-link" href="{{ url_for('contact') }}">Contact</a> -->
-                    <a class="nav-link" target="_top" href="#contact">Contact</a>
-                  </li>
-                </ul>
-        
-              </div>
-            </div>
-        </nav>
-
-
-        <!-- <div id="include"></div> -->
-        <!-- <script type="text/javascript">
-            $(document).ready(function(){
-                $('#navbar').load('nav.html');
-            });
-        </script>
-
-        <div id="navbar"></div> -->
-
         <section id="home">
+            <nav class="navbar navbar-expand-md bg-primary navbar-dark ">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="#navbarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse bg-primary" id="navbarDropdown">
+                    <ul class="navbar-nav mx-auto" id="navbar-list">
+            
+                    <li class="nav-item">
+                        <a class="nav-link" target="_top" href="#home">
+                        <i class="fas fa-home"></i>
+                        Home</a>
+                    </li>
+                    
+                    <li class="nav-item"> 
+                        <a class="nav-link" aria-current="page" target="_top" href="#about">About</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" target="_top" href="#skills">Skills</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" target="_top" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+            
+                </div>
+                </div>
+            </nav>
+
             <div class="index-message">
                 <h1>Hello, World.</h1>
                 <h1>I'm Matt Blacketer.</h1>
             </div>
         </section>
 
-        <section id="about" class="about">
-            <div id="about-content" class="row align-items-center">  <!-- style="background-color: #464646;"> -->
-                
-                <div class="col-lg-4 offset-lg-1 profile-box">
-                    <div class="style-box outer">
-                        <div class="style-box middle"> 
-                            <div class="style-box inner">
-                                <img id="profile-pic" src="static/img/Me.jpg">
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center about-container">  <!-- style="background-color: #464646;"> -->
+                    
+                    <div class="col-md-6 profile-box">
+                        <div class="style-box outer">
+                            <div class="style-box middle"> 
+                                <div class="style-box inner">
+                                    <img id="profile-pic" src="static/img/Me.jpg">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-5 offset-lg-1">
-                    <h5>I'm a <span style="color: yellow">Front-End Developer</span> based in Austin, TX.</h5>
-                    <h2>Like what you see?  Have any questions?</h2>
-                    <!-- <a href="{{ url_for('contact') }}" class="btn btn-md btn-success mt-3">Send me a message!</a> -->
-                    <a href="#contact" class="btn btn-md btn-success mt-3">Send me a message!</a>
+                    <div class="col-md-6 about-text">
+                        <h5>I'm a <span style="color: yellow">Front-End Developer</span> based in Austin, TX.</h5>
+                        <h2>Like what you see?  Have any questions?</h2>
+                        <a href="#contact" class="btn btn-md btn-success mt-3">Send me a message!</a>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-        <section id="skills" class="skills">  <!-- Red -->
+        <section id="skills">  <!-- Red -->
             <div class="row skills-container">  <!-- Green -->
 
                 <div id="skills-title" class="mb-3">
