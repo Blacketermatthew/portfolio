@@ -13,36 +13,44 @@ body {
   height: 50px;
   width: 100%;
   border-bottom: 2px solid #3e67be;
-  opacity: 80%;
+  opacity: 85%;
 }
 
-/* .navbar-nav {
-  background-color: rgb(42, 219, 131);
-} */
-
-.navbar-nav li a {
+.nav-item {
   color: white;
   margin: auto 25px;
 }
 
-.navbar-nav li a:hover {
+/* .navbar-nav li a:hover {
   color: gold;
-  /* outline: #be2c00; */
-}
+  }
 
 .navbar-nav li a:active {
   color: #fff7af;
   background-color: #0b4eb4;
-}
+} */
 
+/* The small outline around the hamburger button when the navbar's collapsed*/
 .navbar-dark .navbar-toggler {
   color: #0c67f0;
-  /* background-color: rgb(255, 55, 138); */
 }
 
+/* hamburger button */
 .navbar-toggler-icon {
   font-size: 18px;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: gold;
+}
+
+/* .navbar-dark .navbar-nav > .active > .nav-link {
+  color: rgb(160, 0, 0);
+} */
 
 /* HOME ----------------------------------------------------------*/
 /* .section.top { */
