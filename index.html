@@ -35,50 +35,13 @@
         <!-- For my personal javascript file -->
         <script src="static/js/main.js"></script>
 
-        <title>Matt Blacketer: Front-End Developer</title>
+        <!-- <title>Matt Blacketer: Front-End Developer</title> -->
+        <title>Matt Blacketer: Developer</title>
     </head>
 
     <body>
 
-        <!-- <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" 
-                aria-controls="navbarNavDarkDropdown" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse bg-primary" id="navbarNavDarkDropdown">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="navbar-list">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarNavDarkDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li>
-                                <a class="dropdown-item" target="_top" href="#home">
-                                    <i class="fas fa-home"></i>
-                                    Home</a>
-                            </li>
-
-                            <li> 
-                                <a class="dropdown-item" aria-current="page" target="_top" href="#about">About</a>
-                            </li>
-                    
-                            <li>
-                                <a class="dropdown-item" aria-current="page" target="_top" href="#skills">Skills</a>
-                            </li>
-                        
-                            <li>
-                                <a class="dropdown-item" target="_top" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                  </li>
-                </ul>
-        
-              </div>
-            </div>
-        </nav> -->
-        
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="#navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,8 +72,7 @@
             </div>
         </nav>
 
-
-
+        <!-- Home -->
         <section id="home">
             <div class="index-message">
                 <h1>Hello, World.</h1>
@@ -118,10 +80,11 @@
             </div>
         </section>
 
+        <!-- About -->
         <section id="about" class="about">
-            <div id="about-content" class="row align-items-center">  <!-- style="background-color: #464646;"> -->
+            <div id="about-content" class="row">  <!-- style="background-color: #464646;"> -->
                 
-                <div class="col-lg-4 offset-lg-1 profile-box">
+                <div class="col-md-6 profile-box">
                     <div class="style-box outer">
                         <div class="style-box middle"> 
                             <div class="style-box inner">
@@ -131,8 +94,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5 offset-lg-1">
-                    <h5>I'm a <span style="color: yellow">Front-End Developer</span> based in Austin, TX.</h5>
+                <div class="col-md-6 about-intro">
+                    <h1>Who even am I?</h1>
+                    <h2>I'm a <span style="color: yellow">developer</span> based in Austin, TX.</h5>
+                    <p>I've taken various online courses and bootcamps to gain my developer knowledge.</p>
+                    <p>My current studies include React and Django.</p>
                     <h2>Like what you see?  Have any questions?</h2>
                     <!-- <a href="{{ url_for('contact') }}" class="btn btn-md btn-success mt-3">Send me a message!</a> -->
                     <a href="#contact" class="btn btn-md btn-success mt-3">Send me a message!</a>
@@ -140,7 +106,7 @@
             </div>
         </section>
 
-
+        <!-- Skills -->
         <section id="skills" class="skills">  <!-- Red -->
             <div class="row skills-container">  <!-- Green -->
 
@@ -150,7 +116,6 @@
                     <h4>The tools I use to help me succeed:</h4>
                 </div>
 
-                <!-- <div class="icon-divider icon-top-half">  Magenta -->
                 <div class="icon-divider">
                     <div class="icon-div">
                         <i class="devicon devicon-html5-plain"></i>
@@ -168,8 +133,6 @@
                         <i class="devicon devicon-javascript-plain"></i>
                         <h5>JavaScript</h5>
                     </div>
-                    <!-- <i class="devicon devicon-jquery-plain"></i> -->
-                    <!-- <i class="devicon devicon-react-original"></i> -->
                     <div class="icon-div">
                         <i class="devicon devicon-postgresql-plain"></i>
                         <h5>PostgreSQL</h5>
@@ -178,9 +141,7 @@
                         <i class="devicon devicon-python-plain"></i>
                         <h5>Python</h5>
                     </div>
-                <!-- </div> -->
-                <!-- <div class="w-100"></div> -->
-                <!-- <div class="icon-divider icon-bottom-half"> -->
+
                     <div class="icon-div">
                         <i class="devicon devicon-flask-original"></i>
                         <h5>Flask</h5>
@@ -193,9 +154,6 @@
                         <i class="devicon devicon-github-original"></i>
                         <h5>GitHub</h5>
                     </div>
-                    <!-- <div class="icon-div">
-                        <i class="devicon devicon-heroku-original"></i>
-                    </div> -->
                     <div class="icon-div">
                         <i class="devicon devicon-linux-plain"></i>
                         <h5>Linux</h5>
@@ -212,8 +170,8 @@
 
             </div>
         </section>
-        <!-- </div> -->
 
+        <!-- Contact -->
         <section id="contact">
             <div class="row justify-content-evenly contact-outer-container">
 
@@ -226,11 +184,11 @@
                     </div>
 
                     <!-- Recaptcha script provided by Google -->
-                    <script>
+                    <!-- <script>
                         function onSubmit(token) {
                           document.getElementById("demo-form").submit();
                         }
-                    </script>
+                    </script> -->
                      
                     <form action="https://formspree.io/f/mnqwqdvj" method="POST">
                         <div class="mb-3">
@@ -249,13 +207,17 @@
                             <textarea name="message" id="text-input" class="form-input message" rows="4" cols="25" required></textarea>
                         </div>
                         <!-- your other form fields go here -->
-                        <button type="submit" id="submit-btn" 
+
+                        <!-- This is the revised button that will be used with the recaptcha -->
+                        <!-- <button type="submit" id="submit-btn" 
                             class="btn btn-lg btn-primary mt-2 class="g-recaptcha" 
                             data-sitekey="reCAPTCHA_site_key" 
                             data-callback='onSubmit' 
-                            data-action='submit'">Send</button>
-                    </form>
+                            data-action='submit'">Send</button> -->
 
+                        <button type="submit" id="submit-btn"
+                            class="btn btn-lg btn-primary mt-2">Send</button>
+                    </form>
                 </div>
 
                 <div class="col-sm-5 offset-sm-1 my-auto pt-5" id="contact-icons">
@@ -269,6 +231,8 @@
             </div>
         </section>
 
+
+        <!-- Footer -->
         <footer id="the-footer">
             <div class="row footer-row">
                     <i class="fas fa-laptop-code footericon"></i>
